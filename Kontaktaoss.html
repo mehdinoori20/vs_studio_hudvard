@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta Oss</title>
+    <style>
+        /* Lägg till eventuell styling här */
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="undersida.html">Undersida</a></li>
+            <li><a href="kontaktaoss.html">Kontakta Oss</a></li>
+            <!-- Lägg till länkar till andra sidor här -->
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Kontakta Oss</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kontaktinformation</h2>
+            <p>
+                Välkommen att kontakta oss. Här finns våra kontaktuppgifter:
+            </p>
+            <ul>
+                <li><a href="tel:+123456789">Ring oss: +12 3456 789</a></li>
+                <li><a href="mailto:info@example.com">E-post: info@example.com</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Kontaktformulär</h2>
+            <form action="#" method="post">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="phone">Telefonnummer:</label>
+                <input type="tel" id="phone" name="phone"><br>
+
+                <label>Är du:</label>
+                <input type="radio" id="newCustomer" name="customerType" value="newCustomer" checked>
+                <label for="newCustomer">Blivande kund</label>
+                <input type="radio" id="existingCustomer" name="customerType" value="existingCustomer">
+                <label for="existingCustomer">Nuvarande kund</label><br>
+
+                <label for="subject">Ämne:</label>
+                <input type="text" id="subject" name="subject" required><br>
+
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+                <label for="privacyPolicy">Jag godkänner integritetspolicyn</label><br>
+
+                <input type="submit" value="Skicka">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Min Webbplats. Alla rättigheter förbehållna.</p>
+    </footer>
+
+</body>
+</html>
